@@ -1,0 +1,179 @@
+/* Buttons and Links*/
+
+a.ant-btn {
+    padding: 4px 4px;
+}
+
+.ant-btn:not(.ant-btn-sm) {
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 40px;
+    min-width: 80px;
+    text-transform: uppercase;
+}
+
+.ant-btn-primary {
+    background: #254172;
+    border-color: #254172;
+}
+
+.ant-btn-primary:hover {
+    background: #008cff;
+    border-color: #008cff;
+}
+
+.ant-btn-danger {
+    background: #94002c;
+    border-color: #94002c;
+}
+
+.ant-btn-danger:hover {
+    background: #fa3538;
+    border-color: #fa3538;
+}
+
+.btn-google {
+    color: #254172;
+    background: #ffffff;
+    padding: 4px 2px;
+}
+
+
+/* Cards */
+
+.ant-card-head {
+    padding: 0.5rem 2rem;
+}
+
+.ant-card-body {
+    padding: 0 2rem;
+}
+
+.ant-card-head-title .ant-typography {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+/* Containers */
+
+.spinner-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Icons */
+
+.anticon-edit {
+    font-size: 20px;
+    color: #254172
+}
+
+.anticon-edit:hover {
+    color: #008cff
+}
+
+.anticon-delete {
+    font-size: 20px;
+    color: #94002c
+}
+
+.anticon-delete:hover {
+    color: #fa3538
+}
+
+
+/* Forms */
+
+.ant-form-item-control {
+    margin-bottom: 0.5rem;
+}
+
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-picker {
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    padding: .375rem .75rem;
+}
+
+
+/* Layout */
+
+.ant-layout {
+    min-height: 100vh;
+    color: #f0f2f5;
+}
+
+.ant-layout-header {
+    background: #254172;
+}
+
+
+/* Tables */
+
+.ant-table-expanded-row .ant-table-cell {
+    padding-left: 3.5rem !important;
+    padding-right: 3.5rem !important;
+}
+
+.expanded-name {
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+
+/* Text */
+
+.ant-typography {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1.ant-typography {
+    color: #254172;
+}
+
+
+/* Responsive */
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}

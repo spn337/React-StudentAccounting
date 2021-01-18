@@ -1,0 +1,29 @@
+.nav-item {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color .2s linear;
+}
+
+.nav-item:hover {
+    color: #008cff;
+}
+
+.nav-item.active {
+    color: #008cff;
+}
+
+.ant-typography.text-user-name {
+    font-size: 20px;
+    color: #008cff;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+@media screen and (max-width: 576px) {
+    .ant-typography.text-user-name {
+        visibility: hidden;
+        display: none;
+    }
+}

@@ -1,0 +1,56 @@
+.title-container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.courses-container {
+    margin-bottom: 3rem;
+}
+
+.course-container {
+    margin-bottom: 2rem;
+}
+
+
+.ant-typography.subscribed-text,
+.ant-card-head-title {
+    font-size: 28px;
+}
+
+.subscribed-color.ant-typography {
+    color: #94002c;
+}
+
+.unsubscribed-color.ant-typography {
+    color: #254172;
+}
+
+
+@media screen and (max-width: 992px) {
+    .ant-card-head-title .ant-typography.subscribed-text {
+        font-size: 24px;
+    }
+
+    .ant-typography.subscribed-text {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ant-card-head-title .ant-typography.subscribed-text {
+        font-size: 20px;
+    }
+
+    .ant-typography.subscribed-text {
+        font-size: 20px;
+    }
+
+    .ant-card .ant-typography.description-text {
+        font-size: 12px;
+    }
+
+    .study-date-container {
+        visibility: hidden;
+        display: none;
+    }
+}
